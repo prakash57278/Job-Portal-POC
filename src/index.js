@@ -9,6 +9,8 @@ root.render(
   domain="dev-66068cjmiy7xau4r.us.auth0.com"
   clientId='5hoqgGh30McsvhTy793Y5JArpYsBFDIw'
   redirectUrl = {window.location.origin}
+  audience="this is an important api"
+  scope="openid profile email"
   >
   <React.StrictMode>
     <App />
